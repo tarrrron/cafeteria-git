@@ -1,5 +1,6 @@
 def calcular_total(subtotal):
-    total = subtotal
+    descuento_estudiante = subtotal * 0.10
+    total = subtotal - descuento_estudiante
     return total
 
 subtotal = 30.00
